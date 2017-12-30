@@ -1,0 +1,21 @@
+body{
+  color: white;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto 50px;
+  text-align: center;
+  color: #fff8f1;
+}
+
+.door_container {
+  text-align: center;
+}
+
+.door {
+  display: inline-block;
+  margin: 0 30px;
+}
