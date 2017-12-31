@@ -4,6 +4,10 @@ body{
   font-family: Arial;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 .container {
   width: 700px;
   margin: 20px auto 50px;
@@ -17,5 +21,10 @@ body{
 
 .door {
   display: inline-block;
-  margin: 0 30px;
+}
+
+img{
+  padding-left:40px;
+  width:160px;
+  height:320px>
 }
