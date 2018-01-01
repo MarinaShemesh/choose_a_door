@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
   <title>Choose a door</title>
 </head>
-<body>
+<body onload="play()">
   <div class="container">
     <h1>You picked the black door</h1>
     <div class="paragraph">
@@ -16,13 +16,15 @@
   </div>
   <div class="door_container">
     <div class="door">
-       <a href="options/black.html"><img src="../img/black_door_end.jpg"></a>
+        <img src="../img/black_door_end.jpg"></a>
+        <audio id="audio" src="../sounds/scary.wav" preload="auto"></audio>
+
        <img src="../img/red_door.jpg">
        <img src="../img/rustic_door.jpg">
     </div>
   </div>
 
   
-</p>
+<script type="text/javascript" src="../script.js"></script>
 </body>
 </html>
