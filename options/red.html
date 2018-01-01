@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
   <title>Choose a door</title>
 </head>
-<body>
+<body onload="playRed()">
   <div class="container">
     <h1>You picked the red door</h1>
     <div class="paragraph">
@@ -16,13 +16,16 @@
   </div>
   <div class="door_container">
     <div class="door">
-       <a href="../options/black.html"><img src="../img/black_door.jpg"></a>
+       <img src="../img/black_door.jpg"></a>
        <img src="../img/red_door_end.jpg">
+       <audio id="audio_b" src="../sounds/scary-laugh.wav" preload="auto"></audio>
+
        <img src="../img/rustic_door.jpg">
     </div>
   </div>
 
-  
-</p>
+<script type="text/javascript" src="../script.js"></script>
 </body>
 </html>
+
+<!-- Mummy sound: credit to https://freesound.org/people/Creeper_Ciller78/sounds/275997/ -->
